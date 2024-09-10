@@ -1,25 +1,14 @@
-Seen ye hy k agar ap ek non argument constructor banaty hu tu jab bi os class ki sub class run hu gy tu parent ka non argument constructor chaly ga agar ap osko wha show kro ya na kro .
+### Constructor Chaining
 
-public ClassName() {                    
-    // some statements            
+1. **Non-argument constructor behavior:**  
+   Jab aap ek non-argument constructor banate hain, to jab bhi is class ki subclass run hoti hai, parent ka non-argument constructor automatically call hota hai, chahe aap usko explicitly call karein ya na karein. 
+
+   ```java
+   public ClassName() {                    
+       // some statements            
    }
 
-public ClassName() {
-    super();
-     // some statements
-    }
-
-ye opar wali dono statement equal hy . JAVA Book Page no (417)
-
-
-public ClassName(double d) {
-    // some statements
+   public ClassName() {
+       super();
+       // some statements
    }
-
-public ClassName(double d) {
-    super();
-     // some statements
-    }
-
-ye bi equal hy JAVA Book Page no (417)
-
