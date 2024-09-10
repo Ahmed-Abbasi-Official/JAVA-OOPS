@@ -1,5 +1,7 @@
 package Constructor_Chaning.Faculty;
 
+// import Constructor_Chaning.Faculty.Faculty.Employee;
+
 public class Faculty extends Employee {
     public static void main(String[] args) {
         Faculty a=new Faculty();
